@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("alfiusa123/nodeapp")
+        app = docker.build("alfiusa/nodeapp")
     }
 
     stage('Test image') {
