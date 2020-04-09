@@ -1,4 +1,4 @@
-# use a node base image1
+# use a node base image12
 FROM node:7-onbuild
 
 # set maintainer
